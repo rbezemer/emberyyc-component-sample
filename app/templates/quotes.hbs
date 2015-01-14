@@ -1,0 +1,6 @@
+<h3 xmlns="http://www.w3.org/1999/html">Here are some quotes:</h3>
+{{#each quote in model}}
+  {{ember-fancytext text=quote.message author=quote.author}}
+{{/each}}
+
+{{outlet}}

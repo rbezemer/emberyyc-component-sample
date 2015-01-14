@@ -16,5 +16,11 @@ var app = new EmberApp();
 // modules that you would like to import into your application
 // please specify an object with the list of modules as keys
 // along with the exports of each module as its value.
+app.import('vendor/arctext/js/jquery.arctext.js');
+app.import('vendor/arctext/css/style.css');
 
+app.import('bower_components/textillate/jquery.textillate.js');
+app.import('bower_components/textillate/assets/jquery.lettering.js');
+app.import('bower_components/textillate/assets/jquery.fittext.js');
+app.import('bower_components/textillate/assets/animate.css');
 module.exports = app.toTree();
